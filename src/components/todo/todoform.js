@@ -43,6 +43,7 @@ const TodoForm = () => {
       <br />
       <button
         type="submit"
+        disabled={!task.name}
         style={{
           backgroundColor: "green",
           fontSize: "20px",
